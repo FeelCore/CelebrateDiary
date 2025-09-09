@@ -1,0 +1,34 @@
+# Xcode
+*.xcworkspace
+*.xcodeproj
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+
+# 빌드 산출물
+build/
+DerivedData/
+Derived/
+
+# macOS 시스템 파일
+.DS_Store
+
+# Tuist 관련 자동 생성 파일 및 캐시
+Tuist/Generated/
+Tuist/Cache/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# 기타
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# 환경설정 파일 (프로젝트에 따라 다름)
+*.xcconfig
+Secrets.xcconfig
+*.env
+
